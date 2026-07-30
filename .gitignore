@@ -1,13 +1,29 @@
+# Byte-compiled / cache
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
 
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Environment variables
+.env
+
+# Trained model weights (regenerate locally with train.py)
+intent_model.pth
+
+# Runtime-generated chat memory (contains user conversation data)
 memory.json
 
-.venv/
-venv/
+# NLTK downloaded data (re-fetched automatically via nltk.download)
+nltk_data/
 
-.vscode/
-.idea/
-
+# OS files
 .DS_Store
 Thumbs.db
+
+# IDE
+.vscode/
+.idea/
