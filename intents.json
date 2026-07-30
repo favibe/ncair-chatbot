@@ -1,0 +1,565 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "Good morning",
+        "Good evening"
+      ],
+      "responses": [
+        "Hello! How can I help you with NCAIR today?",
+        "Hi there! What would you like to know about NCAIR?"
+      ]
+    },
+    {
+      "tag": "bot_identity",
+      "patterns": [
+        "What is your name?",
+        "Who are you?",
+        "Tell me your name",
+        "What's your name?",
+        "Who am I talking to?",
+        "Are you a bot?"
+      ],
+      "responses": [
+        "I am NCAIR Bot, your virtual assistant for all things related to the National Center for Artificial Intelligence and Robotics."
+      ]
+    },
+    {
+      "tag": "how_are_you",
+      "patterns": [
+        "how are you",
+        "how's it going",
+        "how are things",
+        "how's life",
+        "what's up",
+        "how are you doing"
+      ],
+      "responses": [
+        "Functioning at optimal capacity! Ready to help with your NCAIR questions"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "thank you",
+        "thanks",
+        "thanks a lot",
+        "appreciate it",
+        "thank you very much",
+        "much obliged"
+      ],
+      "responses": [
+        "You're welcome! Always happy to help with NCAIR information"
+      ]
+    },
+    {
+      "tag": "farewell",
+      "patterns": [
+        "bye",
+        "goodbye",
+        "see you later",
+        "quit",
+        "exit",
+        "see you"
+      ],
+      "responses": [
+        "Goodbye! Feel free to return with more NCAIR questions"
+      ]
+    },
+    {
+      "tag": "purpose",
+      "patterns": [
+        "what do you do",
+        "your purpose",
+        "your function",
+        "your job",
+        "how can you help",
+        "what can you do"
+      ],
+      "responses": [
+        "I provide information about NCAIR's programs, research, and initiatives"
+      ]
+    },
+    {
+      "tag": "about_ncair",
+      "patterns": [
+        "What is NCAIR?",
+        "What's NCAIR?",
+        "Full meaning of NCAIR?",
+        "What does NCAIR stand for?",
+        "Expand NCAIR",
+        "What is the full meaning of NCAIR?"
+      ],
+      "responses": [
+        "The National Centre for Artificial Intelligence and Robotics (NCAIR) is a special purpose vehicle under NITDA, established to promote research and development on emerging technologies and their real-world applications for Nigeria's national interest."
+      ]
+    },
+    {
+      "tag": "vision",
+      "patterns": [
+        "what is their vision?",
+        "what is ncair vision",
+        "tell me about their vision",
+        "what is the vision of ncair",
+        "what's ncair aiming for",
+        "what is your vision",
+        "what is the aim of ncair"
+      ],
+      "responses": [
+        "OUR VISION: To be a leading hub for Artificial Intelligence, Robotics, and other Fourth Industrial Revolution Technologies in Nigeria and Africa."
+      ]
+    },
+    {
+      "tag": "mission",
+      "patterns": [
+        "What is the mission of NCAIR?",
+        "Tell me about NCAIR's mission",
+        "What does NCAIR hope to achieve?",
+        "What about their mission?",
+        "What is your main goal?",
+        "What are you trying to achieve?"
+      ],
+      "responses": [
+        "OUR MISSION: To promote research, development, and adoption of AI, robotics, and 4IR technologies for economic growth, improved quality of life, and global competitiveness."
+      ]
+    },
+    {
+      "tag": "value_innovation",
+      "patterns": [
+        "What does innovation mean to NCAIR?",
+        "How does NCAIR foster innovation?",
+        "Tell me about innovation at NCAIR",
+        "Explain your innovation value",
+        "How do you promote innovation?",
+        "Is innovation important to NCAIR?"
+      ],
+      "responses": [
+        "Innovation: We foster an environment for trailblazing ideas and solutions."
+      ]
+    },
+    {
+      "tag": "value_collaboration",
+      "patterns": [
+        "What does collaboration mean to NCAIR?",
+        "How does NCAIR collaborate?",
+        "Tell me about collaboration at NCAIR",
+        "Explain your collaboration value",
+        "How do you build partnerships?",
+        "Do you work with other organisations?"
+      ],
+      "responses": [
+        "Collaboration: We build partnerships and connections to amplify our impact."
+      ]
+    },
+    {
+      "tag": "value_inclusiveness",
+      "patterns": [
+        "What does inclusiveness mean to NCAIR?",
+        "How does NCAIR support inclusiveness?",
+        "Tell me about inclusiveness at NCAIR",
+        "Explain your inclusiveness value",
+        "Do you focus on equality?",
+        "How does NCAIR ensure inclusion?"
+      ],
+      "responses": [
+        "Inclusiveness: We are committed to an equitable society through technology."
+      ]
+    },
+    {
+      "tag": "value_entrepreneurship",
+      "patterns": [
+        "What does NCAIR do for entrepreneurship?",
+        "Tell me about entrepreneurship at NCAIR",
+        "How do you support startups?",
+        "Explain your entrepreneurship focus",
+        "Is NCAIR helping entrepreneurs?",
+        "Do you enable tech businesses?"
+      ],
+      "responses": [
+        "Entrepreneurship: We enable technology commercialisation and enterprise."
+      ]
+    },
+    {
+      "tag": "focus_areas",
+      "patterns": [
+        "What technologies does NCAIR work on?",
+        "What are the focus areas of NCAIR?",
+        "What does NCAIR specialize in?",
+        "Tell me about the research focus of NCAIR",
+        "What tech areas does NCAIR focus on?",
+        "What is NCAR focusing on?",
+        "What technologies does NCAIR specialize in?",
+        "Which tech areas are NCAIR's focus?",
+        "Tell me about NCAIR's core tech domains",
+        "What digital fields does NCAIR cover?",
+        "List the technologies NCAIR works on",
+        "What innovation fields does NCAIR focus on?"
+      ],
+      "responses": [
+        "NCAIR focuses on Artificial Intelligence (AI), Robotics and Drones, Internet of Things (IoT), and other emerging technologies. These efforts aim to support the digital transformation of Nigeria's economy."
+      ]
+    },
+    {
+      "tag": "ncair_history",
+      "patterns": [
+        "When was NCAIR established?",
+        "When did NCAIR start?",
+        "Tell me about the history of NCAIR",
+        "When was NCAIR commissioned?",
+        "What year was NCAIR created?",
+        "When was NCAIR founded?",
+        "Tell me about NCAIR's history",
+        "When did NCAIR start operations?",
+        "How old is the NCAIR center?",
+        "When was the NCAIR initiative launched?",
+        "When did NCAIR begin its work?"
+      ],
+      "responses": [
+        "NCAIR was commissioned on November 13th, 2020, as a special initiative by NITDA to foster emerging tech research and digital transformation in Nigeria.",
+        "NCAIR was commissioned on November 13th, 2020, as a NITDA initiative to drive AI and robotics innovation in Nigeria."
+      ]
+    },
+    {
+      "tag": "ai_fund_overview",
+      "patterns": [
+        "What is the AI Fund?",
+        "Tell me about the AI Fund with Google",
+        "How is NCAIR supporting AI startups?",
+        "AI Fund in Nigeria",
+        "Overview of the AI Fund",
+        "Explain the AI Fund"
+      ],
+      "responses": [
+        "The AI Fund is a NGN100 million initiative launched by NCAIR in collaboration with Google to support 10 Nigerian startups using AI in their products. Each selected startup receives up to NGN10 million in funding, access to Google AI tools and mentorship, and opportunities for international exposure."
+      ]
+    },
+    {
+      "tag": "ai_fund_purpose",
+      "patterns": [
+        "Why was the AI Fund created?",
+        "What is the purpose of the AI Fund?",
+        "What are the goals of the AI Fund?",
+        "Why an AI Fund?",
+        "Why does Nigeria need an AI Fund?",
+        "What problem does the AI Fund solve?"
+      ],
+      "responses": [
+        "The AI Fund was created to:\n\n- Support Nigeria's tech-savvy population and startup ecosystem\n- Promote AI innovation that addresses local and global challenges\n- Drive job creation and economic growth\n- Position Nigeria as a global leader in AI development"
+      ]
+    },
+    {
+      "tag": "ai_fund_benefits",
+      "patterns": [
+        "What do startups gain from the AI Fund?",
+        "What support is provided by the AI Fund?",
+        "Benefits of the AI Fund for startups",
+        "What does the AI Fund offer?",
+        "What does a startup get from the AI Fund?",
+        "What do beneficiaries receive from the AI Fund?"
+      ],
+      "responses": [
+        "Selected startups receive:\n\n- Up to NGN10 million in grant funding\n- Technical mentorship and resources from Google engineers\n- Access to Google AI tools\n- Global exposure through Google's ecosystem"
+      ]
+    },
+    {
+      "tag": "ai_fund_selected_startups",
+      "patterns": [
+        "Which startups are selected for the AI Fund?",
+        "What startups are part of the AI Fund?",
+        "Tell me about the startups supported by the AI Fund",
+        "Who are the 10 startups funded by the AI Fund?",
+        "AI Fund selected companies",
+        "List of AI Fund startups"
+      ],
+      "responses": [
+        "Here are the 10 Nigerian startups selected for the AI Fund:\n\n- BetaLife: AI for blood demand prediction and type matching\n- Bunce: AI-powered customer engagement platform\n- CDIAL: Speech-to-text/text-to-speech in 13 African languages\n- FarmSpeak Technology: AI tools for livestock disease detection and climate control\n- Lendsqr: AI-driven lending and credit infrastructure\n- ProDevs: AI-enabled job matching for African tech talent\n- Rana: Sustainable AI-powered energy management\n- SaaSpro Health: Healthcare documentation for Nigerian doctors\n- TownTalk: Contextual AI security insights\n- Trade Lenda: AI-driven credit analysis for MSME financing"
+      ]
+    },
+    {
+      "tag": "ai_fund_format",
+      "patterns": [
+        "Is the AI Fund program virtual or in-person?",
+        "Where does the AI Fund program take place?",
+        "Is the AI Fund held online?",
+        "Do I need to travel for the AI Fund program?",
+        "Can I attend the AI Fund program remotely?",
+        "Is the AI Fund program online only?"
+      ],
+      "responses": [
+        "The AI Fund program is fully virtual, allowing participation from anywhere in Nigeria."
+      ]
+    },
+    {
+      "tag": "ai_fund_feedback",
+      "patterns": [
+        "Will I get feedback on my AI Fund application?",
+        "Do applicants receive feedback?",
+        "Does NCAIR give feedback on applications?",
+        "Can I get feedback if I'm not selected?",
+        "How can I find out if my AI Fund application was successful?",
+        "Is feedback provided after applying for the AI Fund?"
+      ],
+      "responses": [
+        "Due to the high volume of applications, we are unable to provide feedback on individual submissions."
+      ]
+    },
+    {
+      "tag": "ai_fund_duration",
+      "patterns": [
+        "How long is the AI Fund program?",
+        "When does the AI Fund program start and end?",
+        "What is the duration of the AI Fund?",
+        "Timeline of the AI Fund",
+        "How many weeks does the AI Fund run?",
+        "What are the dates for the AI Fund program?"
+      ],
+      "responses": [
+        "The program runs for 6 weeks, from October 2024 to November 2024."
+      ]
+    },
+    {
+      "tag": "ai_fund_impact",
+      "patterns": [
+        "How will the AI Fund impact Nigeria?",
+        "What is the national impact of the AI Fund?",
+        "How does the AI Fund help the country?",
+        "AI Fund benefits for the Nigerian economy",
+        "What changes will the AI Fund bring to Nigeria?",
+        "How does the AI Fund contribute to Nigeria's development?"
+      ],
+      "responses": [
+        "The AI Fund positions Nigeria as a global AI hub, boosts innovation, solves local challenges, supports startups, and contributes to national economic growth and job creation."
+      ]
+    },
+    {
+      "tag": "ai_fund_national_importance",
+      "patterns": [
+        "Why is the AI Fund important for Nigeria?",
+        "What does the AI Fund mean for Nigeria?",
+        "How does the AI Fund benefit Nigeria?",
+        "Why is this initiative needed in Nigeria?",
+        "What is the significance of the AI Fund for Nigeria?",
+        "Why should Nigeria support the AI Fund?"
+      ],
+      "responses": [
+        "The AI Fund is crucial for Nigeria as it supports a youthful, tech-savvy population and a growing tech ecosystem. By addressing local challenges with AI solutions, it drives job creation, economic growth, and positions Nigeria as a global competitor in AI innovation."
+      ]
+    },
+    {
+      "tag": "ai_collective_overview",
+      "patterns": [
+        "What is the Nigerian AI Collective?",
+        "Tell me about the AI Collective",
+        "Overview of the Nigerian AI Collective",
+        "What does the AI Collective do?",
+        "Can you explain the Nigerian AI Collective?",
+        "What is the purpose of the AI Collective?"
+      ],
+      "responses": [
+        "The Nigerian AI Collective is an initiative by NCAIR aimed at accelerating Nigeria's prosperity through an inclusive AI ecosystem. It envisions a future where Nigeria harnesses AI to drive economic growth, innovation, and social development, positioning itself as a leading force in AI on the African continent and globally."
+      ]
+    },
+    {
+      "tag": "ai_collective_objectives",
+      "patterns": [
+        "What are the objectives of the Nigerian AI Collective?",
+        "Goals of the AI Collective",
+        "AI Collective objectives",
+        "What does the AI Collective aim to achieve?",
+        "What are the main goals of the Nigerian AI Collective?",
+        "What is the mission of the AI Collective?"
+      ],
+      "responses": [
+        "The objectives of the Nigerian AI Collective include:\n\n1. Knowledge Sharing and Collaboration: Facilitating a platform for AI professionals, researchers, policymakers, and industry leaders to share insights and collaborate.\n2. Capacity Building: Developing training programs, workshops, and seminars to enhance AI skills.\n3. Innovation and Research: Supporting AI-focused research and development initiatives that address local challenges.\n4. Policy Advocacy: Collaborating with policymakers to develop AI-friendly regulations and promote ethical AI practices.\n5. International Collaboration: Establishing partnerships with international AI organizations to leverage global expertise."
+      ]
+    },
+    {
+      "tag": "ai_collective_stakeholders",
+      "patterns": [
+        "Who are the stakeholders in the Nigerian AI Collective?",
+        "Participants in the AI Collective",
+        "Who is involved in the AI Collective?",
+        "AI Collective members",
+        "Which groups participate in the Nigerian AI Collective?",
+        "Who takes part in the AI Collective?"
+      ],
+      "responses": [
+        "The Nigerian AI Collective includes a diverse range of stakeholders:\n\n- AI researchers and practitioners\n- Academia and educational institutions\n- Industry leaders and entrepreneurs\n- Civil society organizations and industry associations\n- Government representatives and policymakers\n- Startups and innovators\n- AI enthusiasts and students"
+      ]
+    },
+    {
+      "tag": "ai_collective_join",
+      "patterns": [
+        "How can I join the AI Collective?",
+        "I want to be part of the Nigerian AI Collective",
+        "Where can I register for the AI community?",
+        "Join AI Collective Nigeria",
+        "Sign up for AI Collective",
+        "Become a member of the AI Collective"
+      ],
+      "responses": [
+        "You can join the Nigerian AI Collective by filling out a short form on the official site. As a member, you'll gain access to monthly seminars, hackathons, training programs, and funding opportunities. You'll also have the chance to shape AI policy through dedicated roundtables.\n\nClick here to join the AI Collective: https://ncair.nitda.gov.ng/aicollective/"
+      ]
+    },
+    {
+      "tag": "work_done",
+      "patterns": [
+        "What has NCAIR done so far?",
+        "Tell me about NCAIR's completed work",
+        "What recent projects has NCAIR finished?",
+        "Show examples of NCAIR's accomplishments",
+        "Which projects has NCAIR carried out?",
+        "Tell me what NCAIR has achieved"
+      ],
+      "responses": [
+        "Here are some of the key AI and Robotics projects NCAIR has worked on:\n\n- Fine-Tuning LLaMA 2 for Nigerian trade\n- Identifying top Nigerian AI researchers using ML\n- Verifying pharma products with LLaMA 3"
+      ]
+    },
+    {
+      "tag": "llama2_fine_tuning",
+      "patterns": [
+        "Tell me about LLaMA 2 at NCAIR",
+        "How is LLaMA 2 used at NCAIR?",
+        "What does the LLaMA 2 project involve?",
+        "What is the LLaMA 2 fine-tuning about?",
+        "Explain LLaMA 2 model work by NCAIR",
+        "How is NCAIR training LLaMA 2?"
+      ],
+      "responses": [
+        "NCAIR is fine-tuning LLaMA-2-70B for Nigerian use cases, using trade data and Meta's Social Connectedness Data. The model will be open-sourced for public use."
+      ]
+    },
+    {
+      "tag": "ml_nigerian_ai_researchers",
+      "patterns": [
+        "How is NCAIR identifying AI researchers?",
+        "What is the Nigerian AI researcher project?",
+        "Tell me about the AI talent discovery work",
+        "Explain how researchers are identified",
+        "What ML project identifies AI experts?",
+        "Describe the researcher identification system"
+      ],
+      "responses": [
+        "NCAIR uses machine learning to identify top Nigerian AI researchers by analyzing publications, patents, citations, and collaboration networks."
+      ]
+    },
+    {
+      "tag": "llama3_pharma_verification",
+      "patterns": [
+        "How is NCAIR using LLaMA 3?",
+        "What is the LLaMA 3 drug verification project?",
+        "Tell me about pharma validation at NCAIR",
+        "Explain the use of LLaMA 3 in medicine",
+        "What is the drug authenticity AI project?",
+        "Describe NCAIR's pharmaceutical AI initiative"
+      ],
+      "responses": [
+        "NCAIR and CcHUB are using LLaMA 3 to verify pharmaceutical products, aiming to reduce counterfeit drugs and improve medical supply transparency."
+      ]
+    },
+    {
+      "tag": "national_ai_research_scheme",
+      "patterns": [
+        "What is the National AI Research Scheme?",
+        "Tell me about AI research grants in Nigeria",
+        "How does NCAIR support AI research?",
+        "Explain NAIRS and its purpose",
+        "What is NAIRS by NCAIR?",
+        "Who benefits from the AI research grants?"
+      ],
+      "responses": [
+        "The National Artificial Intelligence Research Scheme (NAIRS) supports 45 AI researchers in key sectors like health, agriculture, and sustainability."
+      ]
+    },
+    {
+      "tag": "4ir_agriculture_grant",
+      "patterns": [
+        "What is the 4IR Agriculture grant?",
+        "Explain how NCAIR uses 4IR in farming",
+        "Tell me about agriculture and 4IR tech",
+        "How is 4IR used in Nigerian agriculture?",
+        "What is the digital farming grant from NCAIR?",
+        "Describe NCAIR's 4IR agricultural work"
+      ],
+      "responses": [
+        "NCAIR funded 10 agriculture demonstration projects using 4IR technologies to boost digital innovation in farming."
+      ]
+    },
+    {
+      "tag": "director_info",
+      "patterns": [
+        "Who is the Director of NCAIR?",
+        "Tell me about the NCAIR Director",
+        "Who is Dr. Olubunmi Ajala?",
+        "Who leads NCAIR?",
+        "Who heads the NCAIR team?",
+        "Who is in charge of NCAIR?"
+      ],
+      "responses": [
+        "Dr. Olubunmi Ajala is the National Director of NCAIR. He is a Data Scientist and Economist with deep expertise in Artificial Intelligence, digital strategy, and public infrastructure. He provides leadership in national strategies, research, and programs related to AI and emerging technologies.",
+        "Dr. Olubunmi Ajala is the National Director of NCAIR, a data scientist and economist with expertise in AI and digital strategy. He previously lectured at Coventry University (UK) and has facilitated Data Science training programs in Nigeria and Namibia.",
+        "Dr. Olubunmi Ajala, NCAIR's National Director, is an economist and data scientist. He is a member of the International AI Safety Team and was part of the AU-EU Technological Innovation Group. His projects include the AI-based HIV detection and a cultural vibrancy index for African countries."
+      ]
+    },
+    {
+      "tag": "director_background",
+      "patterns": [
+        "What is Dr. Ajala's background?",
+        "Where did Dr. Ajala work before NCAIR?",
+        "What is his academic experience?",
+        "Tell me about Dr. Ajala's past roles",
+        "Dr. Ajala's education history",
+        "Where did Dr. Ajala teach?"
+      ],
+      "responses": [
+        "Dr. Ajala previously lectured and served as Learning Analytics Lead at the School of Economics, Finance and Accounting, Coventry University (UK). He has also facilitated multiple Data Science training programs in Nigeria and Namibia."
+      ]
+    },
+    {
+      "tag": "director_global_roles",
+      "patterns": [
+        "What global roles has Dr. Ajala held?",
+        "Tell me about Dr. Ajala's international work",
+        "Has Dr. Ajala worked with the AU or EU?",
+        "Dr. Ajala's involvement with international organizations",
+        "Did Dr. Ajala contribute to global AI reports?",
+        "Has Dr. Ajala worked with global tech bodies?"
+      ],
+      "responses": [
+        "Dr. Ajala is a member of the International AI Safety Team, contributing to the 'State of the Science Report.' He was also part of the AU-EU Technological Innovation Group, helping mainstream research and innovation in Africa-Europe cooperation."
+      ]
+    },
+    {
+      "tag": "director_projects",
+      "patterns": [
+        "What projects has Dr. Ajala worked on?",
+        "Tell me about some of Dr. Ajala's work",
+        "Examples of Dr. Ajala's research",
+        "List Dr. Ajala's projects",
+        "What are Dr. Ajala's achievements?",
+        "What has Dr. Ajala contributed to AI?"
+      ],
+      "responses": [
+        "Some of Dr. Ajala's key projects include:\n- Composite Cultural Vibrancy Index for 12 African countries\n- Country and Product Opportunity Index for African trade\n- AI-based HIV detection from TB data\n- Algorithm to identify Nigerian AI researchers\n- Anomaly Detection in personal banking\n- Public sentiment analysis on AfCFTA using Twitter data"
+      ]
+    },
+    {
+      "tag": "contact_ncair",
+      "patterns": [
+        "I need to reach NCAIR",
+        "NCAIR contact details",
+        "Phone number for NCAIR",
+        "Email address for NCAIR",
+        "Where is NCAIR located?",
+        "Contact AI Collective Nigeria"
+      ],
+      "responses": [
+        "You can contact the National Centre for Artificial Intelligence and Robotics (NCAIR) using the following details:\n\nAddress: Plot 790, Alimoh-Abu Street, Behind VIO Yard, Wuye District, Abuja, Nigeria\nPhone: 08178778499, 08178778501\nEmail: ncair@nitda.gov.ng"
+      ]
+    }
+  ]
+}
